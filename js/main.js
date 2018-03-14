@@ -15,3 +15,7 @@ typewriter.typeString("I'm a Web Developer.")
     .deleteAll()
     .typeString("I'm Antonio Alvarez.")
     .start();
+
+    $(document).ready(function() {
+        $('#fullpage').fullpage();
+    });
