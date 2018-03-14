@@ -17,5 +17,8 @@ typewriter.typeString("I'm a Web Developer.")
     .start();
 
     $(document).ready(function() {
-        $('#fullpage').fullpage();
+        $('#fullpage').fullpage({
+            navigation: false,
+		navigationPosition: 'right',
+        });
     });
